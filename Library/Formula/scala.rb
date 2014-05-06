@@ -2,21 +2,21 @@ require 'formula'
 
 class Scala < Formula
   homepage 'http://www.scala-lang.org/'
-  url 'http://www.scala-lang.org/files/archive/scala-2.11.0.tgz'
-  sha1 '65d1ef6231b4f08444dd10a015d2d82ea5444486'
+  url 'http://www.scala-lang.org/files/archive/scala-2.9.3.tgz'
+  sha1 '01bf9e2c854e2385b2bcef319840415867a00388'
 
   option 'with-docs', 'Also install library documentation'
   option 'with-src', 'Also install sources for IDE support'
 
   resource 'docs' do
-    url 'http://www.scala-lang.org/files/archive/scala-docs-2.11.0.zip'
-    sha1 '4194808c15c928e902e9e36dbaaab05ca660213f'
+    url 'http://www.scala-lang.org/files/archive/scala-docs-2.9.3.zip'
+    sha1 '633a31ca2eb87ce5b31b4f963bdfd1d4157282ad'
   end
 
-  resource 'src' do
-    url 'https://github.com/scala/scala/archive/v2.11.0.tar.gz'
-    sha1 'bc1e301741854424a2ed8949cc46fa9091bc1b46'
-  end
+  # resource 'src' do
+  #   url 'https://github.com/scala/scala/archive/v2.9.3.tar.gz'
+  #   sha1 'bc1e301741854424a2ed8949cc46fa9091bc1b46'
+  # end
 
   resource 'completion' do
     url 'https://raw.githubusercontent.com/scala/scala-dist/27bc0c25145a83691e3678c7dda602e765e13413/completion.d/2.9.1/scala'
