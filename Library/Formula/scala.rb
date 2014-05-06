@@ -4,6 +4,8 @@ class Scala < Formula
   homepage 'http://www.scala-lang.org/'
   url 'http://www.scala-lang.org/files/archive/scala-2.9.3.tgz'
   sha1 '01bf9e2c854e2385b2bcef319840415867a00388'
+  
+  version '1.0.0'
 
   option 'with-docs', 'Also install library documentation'
   option 'with-src', 'Also install sources for IDE support'
